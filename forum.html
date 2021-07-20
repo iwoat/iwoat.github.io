@@ -32,8 +32,27 @@
        else
           e.style.display = 'block';
     }
-//-->
+//--></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
 </script>
+    
+<script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+
+</head>
 
 
 
@@ -137,57 +156,87 @@
 <!--            8:30 am, Coffee & Refreshments<br />
  -->           
             9:00&ndash;9:30, <b>Yunze Lu (卢运则)</b>, University of Michigan
-            <a onclick="toggle_visibility('1');"><i></i></a>
+            <a onclick="toggle_visibility('1');"><i>The equivariant Quillen's theorem
+</i></a>
             <br />
             <div id="1" class="toshow" style="display:none">
                 
-
+Quillen proves that the universal ring for formal group laws is isomorphic to the ring of stable complex cobordism MU. In this talk I will discuss an equivariant version of it. This is joint work with Igor Kriz.
 
             </div>
             
             
             <!--<a href="slides/Lü.pdf" target="_blank"><b>[Slides]</b></a>--> 9:35&ndash;10:05, <b>Reid Harris</b>, Chinese University of Hong Kong, Shenzhen
-            <a onclick="toggle_visibility('2');"><i></i></a>
+            <a onclick="toggle_visibility('2');"><i>The kernel of the monodromy of the universal family of smooth quartic plane curves</i></a>
             <br />
             <div id="2" class="toshow" style="display:none">
                 
+Consider the parameter space \({\mathcal U}_d\) of smooth plane curves of degree \(d\). The universal smooth plane curve of degree \(d\) is a fiber bundle \(\mathcal{E}_d\to\mathcal{U}_d\) with fiber diffeomorphic to a surface \(\Sigma_g\). This bundle gives rise to a monodromy homomorphism \(\rho_d:\pi_1(\mathcal{U}_d)\to\mathrm{Mod}(\Sigma_g)\), where \(\mathrm{Mod}(\Sigma_g):=\pi_0(\mathrm{Diff}^+(\Sigma_g))\) is the mapping class group of \(\Sigma_g\). The kernel of \(\rho_4:\pi_1(\mathcal{U}_4)\to\mathrm{Mod}(\Sigma_3)\) is isomorphic to \(F_\infty\times\mathbb{Z}/3\mathbb{Z}\), where \(F_\infty\) is a free group of countably infinite rank. The proof uses results from the Weil-Petersson geometry of Teichmüller space together with results from algebraic geometry.
 
             </div>
             
             10:35&ndash;11:05, <b>Jiajun Dai (戴佳俊)</b>, Sichuan University
-            <a onclick="toggle_visibility('3');"><i></i></a><br />
+<a onclick="toggle_visibility('3');"><i>\(\infty\)-category and its applications in Homotopy Theory</i></a>
+            <br />
             <div id="3" class="toshow" style="display:none">
-                
+                \(\infty\)-category can be roughly regarded as a generalization of the combination of ordinary Category Theory and classical Homotopy Theory. The Kan complex, obtained under a slightly stronger extension condition than \(\infty\)-category, can be processed as (co)fibrant replacement to define derived functors. Such replacement would retain homotopy properties without losing information in higher degrees, making ‘derived-ing’an ideal approximation. By expounding the motivation of the construction of \(\infty\)-category, the approach to construct it, its primary properties and representative applications, we will unwind the heart of Abstract Homotopy Theory including those up to date. As an extending case, it will be sketched why a differential graded category is an \(\infty\)-category. Moreover, we will introduce stable \(\infty\) −category intentionally: it has the almost same axiomatic kernel as Stable Homotopy Theory; its homotopy category has a structure of triangulated category, while its definition is much simpler than the latter; it has a t-structure, forming the basis for its localization to obtain derived \(\infty\)-category and showing us the exquisite evolution during the localization. As to stable \(\infty\)-category, we will take the \(\infty\)-category of spectra as a model example. Finally, we will explain how to transplant these theories to orbifolds with the bridge of stacks which is different from conventional theories of orbifold groupoid, involving how to acquire information of orbifolds in higher degrees from higher orbifolds and how to explore the stability of orbifolds via derived orbifolds.
+
             </div>
+
             
  <!--           12:00 pm, Lunch Break<br />
      -->       
             11:10&ndash;11:40, <b>Xing Gu (古星)</b>, Max Planck Institute for Mathematics
-            <a onclick="toggle_visibility('4');"><i></i></a><br />
+
+<a onclick="toggle_visibility('4');"><i>A Topological approach to the motivic cohomology of \(BPGL_n\)</i></a>
+            <br />
             <div id="4" class="toshow" style="display:none">
+                
+For an algebraic group \(G\) over \(\mathbb{C}\), we have the classifying space \(BG\) in the sense of Totaro and Voevodsky, which is an object in the unstable motivic homotopy category that plays a similar role in algebraic geometry as the classifying space of a Lie group in topology. 
+The motivic cohomology (in particular, the Chow ring) of \(BG\) is closely related, via the cycle map and the Beilinson-Lichtenbaum Conjecture/Theorem, to the singular cohomology of the topological realization of \(BG\), which is the classifying space of the Lie group \(G(\mathbb{C})\). 
+In this talk we exploit the above connection between motivic and singular cohomology to show that, at least in the case \(G=PGL_n\), we are able to study the Chow ring of \(BG\) with devices from algebraic topology, such as the Serre spectral sequences and the Steenrod operations.
+
                 
             </div>
 
             14:00&ndash;14:30, <b>Zhiwang Yu (于智旺)</b>, Tianjin University
-            <a onclick="toggle_visibility('5');"><i></i></a><br />
+            <a onclick="toggle_visibility('5');"><i>
+Elliptic genera of level $N$ for complete intersections
+</i></a><br />
             <div id="5" class="toshow" style="display:none">
                 
+We study the elliptic genera of level $N$ at the cusps of $Γ_1(N)$ for any complete intersection. These genera are described as the summations of generalized binomial coefficients, where each generalized binomial coefficient is related to the dimension and multi-degree of complete intersection. For complete intersection $X_n(\underline{d})$, write $c_1(X_n(\underline{d})) = c_1x$, where $x \in H^2(X_n(\underline{d}); \mathbb{Z}) = \mathbb{Z}$ is a generator. We mainly discuss the values of the elliptic genera of level $N$ for $X_n(\underline{d})$ in the case of $c_1 > 0$, $= 0$ or $< 0$. In particular the values about the Todd genus, $\hat{A}$-genus and $A_k$-genus of $X_n(\underline{d})$ can be derived from the elliptic genera of level $N$.
+
             </div>
 
                       14:35&ndash;15:05, <b>Qifan Shen (沈启帆)</b>, Fudan University
-            <a onclick="toggle_visibility('6');"><i></i></a><br />
+            <a onclick="toggle_visibility('6');"><i>On string quasitoric manifolds and their underlying polytopes</i></a><br />
             <div id="6" class="toshow" style="display:none">
                 
+Quasitoric manifolds were first introduced by Davis and Januszkiewicz as a topological generalization of nonsingular projective toric varieties. They can be constructed from underlying simple polytope and corresponding characteristic matrix, yielding the expression of algebraic topology data such as cohomology ring and characteristic classes in a combinatorial way. I will discuss how the underlying polytope and characteristic matrix are restricted by string property. In particular, some necessary and sufficient conditions are obtained in few facets case and low dimensional case.
+
             </div>
                       15:45&ndash;16:15, <b>Haoqing Wu (吴皓清)</b>, Swiss Federal Institute of Technology in Lausanne
-            <a onclick="toggle_visibility('7');"><i></i></a><br />
+            <a onclick="toggle_visibility('7');"><i>
+Dwyer’s tame homotopy theory revisited 
+</i></a><br />
             <div id="7" class="toshow" style="display:none">
                 
+Roughly speaking, a space is tame if the torsion parts “disappear” faster than the torsion parts in the sphere. Dwyer showed that the homotopy theory of tame spaces is completely captured by certain dg Lie algebras over the integer, as an analogy to Quillen’s rational homotopy. 
+In this talk, I will first give a sketch on the modern approach of Quillen’s rational homotopy theory. Then I will explain how one can study tame homotopy theory using localization techniques from Bousfield and Farjoun. Finally, I will explain how one can obtain a coalgebra model for tame spaces.
+
             </div>
                       16:20&ndash;16:50, <b>Yuqing Shi (石宇晴)</b>, Utrecht University
-            <a onclick="toggle_visibility('8');"><i></i></a><br />
+            <a onclick="toggle_visibility('8');"><i>
+Universal Property of the Bousfield--Kuhn Functor
+</i></a><br />
             <div id="8" class="toshow" style="display:none">
                 
+It is well-known due to Quillen that the homotopy theory of simply connected rational spaces is equivalent to that of simply connected differential graded rational Lie algebras. As a next step, one may want to study spaces $p$-locally for a fixed prime $p$. Bousfield constructed the $\infty$-category $\mathcal{S}_{v_n}$ of $v_n$-local spaces as a localisation of the $\infty$-category of $p$-local spaces. The case $n = 0$ recovers Quillen's rational situation mentioned above. Analogously one can localise the stable homotopy category to obtain the $\infty$-category $\mathcal{S}\mathrm{p}_{v_n}$ of $v_n$-local spectra. These are important building blocks in chromatic homotopy theory. The Bousfield--Kuhn functor $\operatorname{\Phi}_n \colon \mathcal{S}_{v_n} \to \mathcal{S}\mathrm{p}_{v_n}$ establishes a connection between the unstable and stable periodic localisations. More precisely, Heuts shows that $\operatorname{\Phi}_n$ exhibits $\mathcal{S}_{v_n}$ as the $\infty$-category of Lie algebras in $\mathcal{S}\mathrm{p}_{v_n}$, and $\operatorname{\Phi}_n$ becomes the forgetful functor. We show that the Bousfield--Kuhn functor exhibits the $\infty$-category $\mathcal{S}\mathrm{p}_{v_n}$ of $v_n$-local spectra as the costabilisation of the $\infty$-category $\mathcal{S}_{v_n}$ of $v_n$-local spaces. This implies the following universal property of the Bousfield--Kuhn functor: every accessible and limit preserving functor $\mathcal{S}_{v_n} \to \mathcal{C}$ factors through $\operatorname{\Phi}_n$, where $\mathcal{C}$ is any stable presentable $\infty$-category. This is joint work with Gijs Heuts.
+
+
+
+
             </div>
 
 <!--            6:00 pm, Banquet at He Restaurant, 3rd floor of U-Fun Shopping Mall 悠方购物公园瑞泰和江南菜<br />
@@ -197,41 +246,53 @@
     -->   
           
                       9:00&ndash;9:30, <b>Ang Li (李昂)</b>, University of Kentucky
-            <a onclick="toggle_visibility('9');"><i></i></a>
+            <a onclick="toggle_visibility('9');"><i>A comparison between $C_2$-equivariant and classical squaring operations
+</i></a>
             <br />
             <div id="9" class="toshow" style="display:none">
                 
-
+For any $C_2$-equivariant spectrum, we can functorially assign two non-equivariant spectra - the underlying spectrum and the geometric fixed point spectrum. They both induce maps from the RO($C_2$)-graded cohomology to the classical cohomology. In this talk, I will compare the RO($C_2$)-graded squaring operations with the classical squaring operations along the induced maps. This is joint work with Prasit Bhattacharya and Bertrand Guillou.
 
             </div>
             
             
             <!--<a href="slides/Lü.pdf" target="_blank"><b>[Slides]</b></a>--> 9:35&ndash;10:05, <b>Jingfang Lian (练静芳)</b>, Fudan University
-            <a onclick="toggle_visibility('10');"><i></i></a>
+            <a onclick="toggle_visibility('10');"><i>
+Twisted Milnor Hypersurfaces</i></a>
             <br />
             <div id="10" class="toshow" style="display:none">
                 
+Firstly, I would give a simple introduction about the twisted Milnor hypersurface. Then I would mainly discuss about some properties about when would the twisted Milnor hypersurface be spin or string. During the discussion,I would also list some interesting examples which may be closely concerned with Stolz Conjecture or Prize Question.
 
             </div>
             
             10:35&ndash;11:05, <b>Lisu Wu (吴利苏)</b>, Shandong University of Science and Technology
-            <a onclick="toggle_visibility('11');"><i></i></a><br />
+            <a onclick="toggle_visibility('11');"><i>Integral homology groups of Coxeter orbifolds</i></a><br />
             <div id="11" class="toshow" style="display:none">
-                
+                A  Coxeter $n$-orbifold  is a special $n$-orbifold locally modelled on the quotient $\mathbb{R}^n/W$ of the reflective $W$-action on $\mathbb{R}^n$, where $W$ is a finite Coxeter group. In this talk, I will introduce an orbifold cellular homology of Coxeter orbifolds.  This talk is based on a joint work with Professor Zhi Lü and Li Yu.
             </div>
             
  <!--           12:00 pm, Lunch Break<br />
      -->       
             11:10&ndash;11:40, <b>Yu Zhang (张宇)</b>, Nankai University
-            <a onclick="toggle_visibility('12');"><i></i></a><br />
+            <a onclick="toggle_visibility('12');"><i>
+Some spectral sequence computations towards stable homotopy groups of spheres at odd primes
+
+</i></a><br />
             <div id="12" class="toshow" style="display:none">
                 
+Computing stable homotopy groups of spheres is a longstanding problem of interest in homotopy theory. After decades of extensive research, plenty of new methods and new results have been established. Yet, there are still lots of mysteries and open questions.  Because these stable homotopy groups are finite abelian at positive degrees, we only need to figure out each $p$-torsion subgroup and work with one prime at a time. In this talk, we will mainly focus on the case when $p$ is odd.
+
+We will review some classical results and computational methods, including the basic setup for algebraic Novikov spectral sequence. Afterward, we will talk about our ongoing work, which computes certain $d_2$-differentials in the algebraic Novikov spectral sequence. Our computation provides a more straightforward alternative to determine all nontrivial Adams $d_2$-differentials in the third line assuming $p > 3$. This is joint work with Xiangjun Wang and Yaxing Wang.
+
             </div>
 
             11:50&ndash;12:20, <b>Jian Liu (刘健)</b>, Hebei Normal University
-            <a onclick="toggle_visibility('13');"><i></i></a><br />
+            <a onclick="toggle_visibility('13');"><i>The Geometry of Hypergraphs</i></a><br />
             <div id="13" class="toshow" style="display:none">
                 
+Hypergraphs can be regarded as a kind of generalization of simplicial complexes, and the geometry of hypergarphs seems implicit. In this report, we are trying to introduce an object called complexoid to make up stories for the geometry of hypergraphs. Moreover, we will explore the connections between the homology of complexoids and other homologies.
+
             </div>
 
 <!--          
