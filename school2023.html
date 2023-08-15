@@ -24,7 +24,25 @@
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
 
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.css" integrity="sha384-Um5gpz1odJg5Z4HAmzPtgZKdTBHZdw8S29IecapCSB31ligYPhHQZMIlWLYQGVoc" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/katex.min.js" integrity="sha384-YNHdsYkH6gMx9y3mRkmcJ2mFUjTd0qNQQvY9VYZgQd7DcN7env35GzlmFaZ23JGp" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.11/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          // customised options
+          // • auto-render specific keys, e.g.:
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          // • rendering keys, e.g.:
+          throwOnError : false
+        });
+    });
+</script>
 
 <body id="top">
 
@@ -156,13 +174,13 @@ All lectures including evening sessions will take place in <b>Lecture Room A6-1<
             Lecture 1-1: <i>Overview</i><br />
             
             <a href="notes/Lecture-1-2.pdf" target="_blank"><b>[Notes]</b></a> 11:00&ndash;12:00, <b>Meng Guo</b>,
-            Lecture 1-2: <i>A∞-spaces, classifying spaces, structures on classifying spaces</i><br />
+            Lecture 1-2: <i>$A_infty$-spaces, classifying spaces, structures on classifying spaces</i><br />
             
             <a href="notes/Lecture-1-3.pdf" target="_blank"><b>[Notes]</b></a> 13:30&ndash;14:30, <b>Yunze Lu</b>,
-            Lecture 1-3: <i>Adjunctions, (Σn,Ωn), monads, and Beck’s monadicity theorem</i><br />
+            Lecture 1-3: <i>Adjunctions, $(\Sigma_n,\Omega_n)$, monads, and Beck’s monadicity theorem</i><br />
             
             <a href="notes/Lecture-1-4.pdf" target="_blank"><b>[Notes]</b></a> 15:00&ndash;16:00, <b>Shangjie Zhang</b>,
-            Lecture 1-4: <i>Operads, monads, and their algebras; little n-cubes</i><br />
+            Lecture 1-4: <i>Operads, monads, and their algebras; little $n$-cubes</i><br />
             
             <a href="notes/Lecture-1-5.pdf" target="_blank"><b>[Notes]</b></a> 19:00&ndash;20:00, <b>Weinan Lin</b>,
             Lecture 1-5: <i>James construction and the Hilton–Milnor theorem</i><br />
@@ -172,19 +190,19 @@ All lectures including evening sessions will take place in <b>Lecture Room A6-1<
 </h4>
             
             <a href="notes/Lecture-2-1.pdf" target="_blank"><b>[Notes]</b></a> 9:30&ndash;10:30, <b>Shangjie Zhang</b>,
-            Lecture 2-1: <i>En-spaces, E∞-spaces and the recognition principle</i><br />
+            Lecture 2-1: <i>$E_n$-spaces, $E_\infty$-spaces and the recognition principle</i><br />
             
             <a href="notes/Lecture-2-2.pdf" target="_blank"><b>[Notes]</b></a> 11:00&ndash;12:00, <b>Foling Zou</b>,
-            Lecture 2-2: <i>The approximation theorem - history and outline of the proof</i><br />
+            Lecture 2-2: <i>The approximation theorem: history and outline of the proof</i><br />
             
             <a href="notes/Lecture-2-3.pdf" target="_blank"><b>[Notes]</b></a> 13:30&ndash;14:30, <b>Yu Zhang</b>,
             Lecture 2-3: <i>Operad pairs; examples; the Steiner and linear isometries operads</i><br />
             
             <a href="notes/Lecture-2-4.pdf" target="_blank"><b>[Notes]</b></a> 15:00&ndash;16:00, <b>Meng Guo</b>,
-            Lecture 2-4: <i>Monad pairs, E∞-ring spaces and E∞ ring spectra</i><br />
+            Lecture 2-4: <i>Monad pairs, $E_\infty$-ring spaces and $E_\infty$-ring spectra</i><br />
             
             <a href="notes/Lecture-2-5.pdf" target="_blank"><b>[Notes]</b></a> 19:00&ndash;20:00, <b>Weinan Lin</b>,
-            Lecture 2-5: <i>H∗(CX) and H∗(ΩnΣnX) as functors of H∗(X)</i><br />
+            Lecture 2-5: <i>$H_∗(CX)$ and $H_∗(\Omega_n\Sigma_nX)$ as functors of $H_∗(X)$</i><br />
 
 
 <h4>Wed. Aug. 16, Day 3: Categorical multiplicative structure</h4>
@@ -193,7 +211,7 @@ All lectures including evening sessions will take place in <b>Lecture Room A6-1<
             Lecture 3-1: <i>Symmetric monoidal and bimonoidal categories, permutative and bipermutative categories, endomorphism operad pairs, and strictification</i><br />
             
             <a href="notes/Lecture-3-2.pdf" target="_blank"><b>[Notes]</b></a> 11:00&ndash;12:00, <b>Yu Zhang</b>,
-            Lecture 3-2: <i>From symmetric bimonoidal categories to E∞-ring spectra</i><br />
+            Lecture 3-2: <i>From symmetric bimonoidal categories to $E_\infty$-ring spectra</i><br />
             
             <a href="notes/Lecture-3-3.pdf" target="_blank"><b>[Notes]</b></a> 13:30&ndash;14:30, <b>Ningchuan Zhang</b>,
             Lecture 3-3: <i>The Barratt–Priddy–Quillen theorem and algebraic K-theory</i><br />
@@ -202,17 +220,17 @@ All lectures including evening sessions will take place in <b>Lecture Room A6-1<
             Lecture 3-4: <i>Overview of equivariant generalizations</i><br />
             
             <a href="notes/Lecture-3-5.pdf" target="_blank"><b>[Notes]</b></a> 19:00&ndash;20:00, <b>Guchuan Li</b>,
-            Lecture 3-5: <i>The Goerss-Hopkins recognition of E∞ ring spectra</i><br />
+            Lecture 3-5: <i>The Goerss–Hopkins recognition of $E_\infty$-ring spectra</i><br />
 
 
 
 <h4>Thu. Aug. 17, Day 4: Equivariant spaces and spectra</h4>
             
             <a href="notes/Lecture-4-1.pdf" target="_blank"><b>[Notes]</b></a> 9:30&ndash;10:30, <b>Zhipeng Duan</b>,
-            Lecture 4-1: <i>G-spaces, G-CW complexes, G-Postnikov towers, fixed point and orbit adjunctions, homotopy groups and the Whitehead theorem</i><br />
+            Lecture 4-1: <i>$G$-spaces, $G$-CW complexes, $G$-Postnikov towers, fixed point and orbit adjunctions, homotopy groups and the Whitehead theorem</i><br />
             
             <a href="notes/Lecture-4-2.pdf" target="_blank"><b>[Notes]</b></a> 11:00&ndash;12:00, <b>Zhipeng Duan</b>,
-            Lecture 4-2: <i>Equivariant stable homotopy theory, G-prespectra, G-spectra, the (Σ∞, Ω∞) adjunction, and Lewis’s theorem </i><br />
+            Lecture 4-2: <i>Equivariant stable homotopy theory, $G$-prespectra, $G$-spectra, the $(\Sigma_\infty,\Omega_\infty)$-adjunction, and Lewis’s theorem </i><br />
             
            
 
@@ -221,19 +239,19 @@ All lectures including evening sessions will take place in <b>Lecture Room A6-1<
 <h4>Fri. Aug. 18, Day 5: Equivariant recognition</h4>
             
             <a href="notes/Lecture-5-1.pdf" target="_blank"><b>[Notes]</b></a> 9:30&ndash;10:30, <b>Guchuan Li</b>,
-            Lecture 5-1: <i>The additive equivariant recognition principle for G-categories</i><br />
+            Lecture 5-1: <i>The additive equivariant recognition principle for $G$-categories</i><br />
             
             <a href="notes/Lecture-5-2.pdf" target="_blank"><b>[Notes]</b></a> 11:00&ndash;12:00, <b>Peter May</b>,
-            Lecture 5-2: <i>The multiplicative recognition principle for G-categories; the equivariant Barratt–Priddy–Quillen theorem and algebraic K-theory</i><br />
+            Lecture 5-2: <i>The multiplicative recognition principle for $G$-categories; the equivariant Barratt–Priddy–Quillen theorem and algebraic K-theory</i><br />
             
             <a href="notes/Lecture-5-3.pdf" target="_blank"><b>[Notes]</b></a> 13:30&ndash;14:30, <b>Ningchuan Zhang</b>,
-            Lecture 5-3: <i>Orbit categories and the equivalence of homotopy categories, coefficient systems, Bredon cohomology of G-spaces and axioms</i><br />
+            Lecture 5-3: <i>Orbit categories and the equivalence of homotopy categories, coefficient systems, Bredon cohomology of $G$-spaces and axioms</i><br />
             
             <a href="notes/Lecture-5-4.pdf" target="_blank"><b>[Notes]</b></a> 15:00&ndash;16:00, <b>Yunze Lu</b>,
-            Lecture 5-4: <i>Mackey functors and RO(G)-graded cohomology theory</i><br />
+            Lecture 5-4: <i>Mackey functors and $RO(G)$-graded cohomology theory</i><br />
             
             <a href="notes/Lecture-5-5.pdf" target="_blank"><b>[Notes]</b></a> 19:00&ndash;20:00, <b>Guchuan Li</b>,
-            Lecture 5-5: <i>The Atiyah-Segal completion theorem, the Segal conjecture, and equivariant cobordism; the evenness conjecture</i><br />
+            Lecture 5-5: <i>The Atiyah–Segal completion theorem, the Segal conjecture, and equivariant cobordism; the evenness conjecture</i><br />
 
 
 
@@ -249,10 +267,10 @@ All lectures including evening sessions will take place in <b>Lecture Room A6-1<
             Lecture 6-2: <i>The general theory of composite adjunctions</i><br />
             
             <a href="notes/Lecture-6-3.pdf" target="_blank"><b>[Notes]</b></a> 13:30&ndash;14:30, <b>Peter May</b>,
-            Lecture 6-3: <i>The recognition principle for orbital presheaves; examples: Eilenberg–Maclane G-spectra, unit G-spectra, and Picard spectra</i><br />
+            Lecture 6-3: <i>The recognition principle for orbital presheaves; examples: Eilenberg–Mac Lane $G$-spectra, unit $G$-spectra, and Picard spectra</i><br />
             
             <a href="notes/Lecture-6-4.pdf" target="_blank"><b>[Notes]</b></a> 15:00&ndash;16:00, <b>Peter May</b>,
-            Lecture 6-4: <i>Ending: questions and speculations - homological and motivic applications of the general
+            Lecture 6-4: <i>Ending questions and speculations: homological and motivic applications of the general
 theory? equivariant and motivic chromatic theory?</i><br />
        
 
