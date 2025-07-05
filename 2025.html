@@ -8,6 +8,15 @@
     <title>IWoAT 2025</title>
     <meta name="description" content="">
     <meta name="author" content="">
+<style>
+
+    .map {
+      margin: 1em 0;
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+</style>
 
     <!-- mobile specific metas
     ================================================== -->
@@ -23,6 +32,17 @@
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
+
+<script>
+    function toggle_visibility(id) {
+      const e = document.getElementById(id);
+      if (e.style.display === 'none') {
+        e.style.display = 'block';
+      } else {
+        e.style.display = 'none';
+      }
+    }
+  </script>
 
 
 
@@ -56,6 +76,7 @@
 <li><a href="schedule25" target="_blank">Abstracts and Schedule</a></li>
                         <li><a href="#S" title="">Speakers</a></li>
 <li><a href="#R" title="">Registration</a></li>
+<li><a href="#L" title="">Logistics</a></li>
                     <li><a href="#O" title="">Organizers</a></li>
                     </ul> <!-- end header__nav -->
                     <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
@@ -179,6 +200,51 @@ The week before this conference, we will also be hosting another event. For more
 </p>
 
 
+<h3><a id="L"></a>Logistics</h3>
+                <p>
+<a onclick="toggle_visibility('1')"><i>1. Getting to the Venue</i></a>
+<div id="1" class="toshow" style="display:none"> 
+  <ul>
+    <li>
+      You can <strong>take a taxi or share a ride</strong> using Didi. 
+    </li>
+    <li>
+      Alternatively, you can <strong>take the subway</strong>: <em>Sanba Station</em> (三坝) is right next to the hotel. From Sanba Station, it’s two stops to <em>Zheda Zijingang</em> (浙大紫金港). From <em>Zheda Zijingang Exit A</em>, please follow the walking route marked on the attached picture below.
+<div><img src="images/subway.jpg" alt="Subway route map" class="map"></div>
+    </li>
+    <li>
+      The weather forecast says it will be rainy, hot, and humid next week. Walking is possible but not recommended.
+    </li>
+  </ul>
+</div>
+
+<a onclick="toggle_visibility('2')"><i>2. Meals</i></a>
+<div id="2" class="toshow" style="display:none"> 
+  <p>
+ <ul>
+<li>
+    There are two dining halls near the venue, marked on the map below. Just <strong>follow the group</strong>—we’ll head there together during lunch breaks.
+<div><img src="images/campus.jpg" alt="Dining" class="map"></div>
+  </li>
+  <li>
+    Most food stalls accept <strong>Alipay</strong>. If you need help identifying <strong>vegan/vegetarian/pescetarian options</strong> or paying, feel free to ask the organizers or student volunteers.
+  </li>
+ </ul>
+</div>
+<br><br>
+
+<a onclick="toggle_visibility('3')"><i>3. Campus Entry</i></a>
+<div id="3" class="toshow" style="display:none"> 
+ <ul>
+<li>
+    You may be asked to show a campus access reservation at the gate. <strong>Please carry your passport if you're a foreign guest</strong>, just in case.
+  </li> </ul>
+  </p></div>
+
+</p>
+
+
+
 <h3><a id="O"></a>Organizers</h3>
                 <p>
 <li><a href="https://its.westlake.edu.cn/info/1108/1426.htm" target="_blank">Xing Gu</a>, Westlake University</li>
@@ -192,8 +258,7 @@ Yunze Lu</a>, University of California, San Diego</li>
                     <li><a href="https://sites.google.com/view/xuzhouli" target="_blank">Zhouli Xu</a>, University of California, Los Angeles</li>
                     <li><a href="https://yifeizhu.github.io/" target="_blank">Yifei Zhu</a>, Southern University of Science and Technology</li>
 <li><a href="https://zzzflll.github.io/" target="_blank">Foling Zou</a>, Chinese Academy of Sciences</li><br/>
-               <!--   <li>Assistant: <a href="mailto:yumeng@bicmr.pku.edu.cn">Meng Yu</a>, Peking University</li> -->
-
+               <li>Assistant: <a href="mailto:lujie0424@zju.edu.cn">Lucy Zhang</a>, Zhejiang University</li> 
 </p>
 
 
